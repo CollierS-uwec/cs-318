@@ -1,0 +1,28 @@
+p{
+    color:rgb(34, 158, 90);
+}
+h1{
+    color:#00ff00;
+    background-color:#bb007b;
+}
+p{
+    margin:1rem 2rem 3rem 4rem;
+}
+p{
+    padding:1rem;
+}
+p{
+    text-align:left
+}
+p{
+    font-size:2em; 
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-weight:600;
+}
+h1{
+    font-weight:200;
+}
