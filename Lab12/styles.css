@@ -31,6 +31,7 @@ form{
     max-width:calc(90% - 4rem);
     margin: 1rem auto;
 }
+/*Selectors need to be setup up like: input[type=text], input[type=email], etc...*/
 Text, email, date, number, color{
     font-size:1.25rem;
     width: calc(100%-1rem);
@@ -38,16 +39,19 @@ Text, email, date, number, color{
     padding: .5rem;
     border-radius: .25rem;
 }
+/*Selectors need to be setup up like: input[type=text], input[type=email], etc...*/
 color{
     width: 4rem;
     height: 4rem;
     border-radius: 2rem;
 }
+/*Selectors need to be setup up like: input:focus[type=text], input:focus[type=email], etc...*/
 Focus:text, email, date, number, color{
     background-color: black;
     color: white;
     outline:none;
 }
+/*Selectors need to be setup up like: input[type=text], input[type=email], etc...*/
 Reset, Submit{
     font-family: 'Eater', cursive;
     font-size: 1.5rem;
@@ -56,17 +60,20 @@ Reset, Submit{
     border: 3px solid yellowgreen;
     margin: 1rem 2rem 0 0;
 }
+/*Selectors need to be setup up like: input[type=text], input[type=email], etc...*/
 Submit{
     background-color: yellowgreen;
 }
+/*Selectors need to be setup up like: input[type=text], input[type=email], etc...*/
 Reset{
     background-color: black;
     color: yellowgreen;
-}
+}/*Selectors need to be setup up like: input:hover[type=text], input:hover[type=email], etc...*/
 Hover:submit{
     background-color: black;
     color: yellowgreen;
 }
+/*Selectors need to be setup up like: input:hover[type=text], input:hover[type=email], etc...*/
 Hover:reset{
     color: black;
     background-color: red;
