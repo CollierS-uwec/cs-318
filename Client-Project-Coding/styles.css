@@ -1,0 +1,27 @@
+body{
+    background-color: #BDC399;
+    margin: 0;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #967969;
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    gap:1rem;
+}
+h3{
+    margin-top: -.2rem;
+    margin-bottom: .1rem;
+}
+body>section{
+   padding:1rem;
+}
+.gallery img{
+    height: 10rem;
+}
+
+
+
